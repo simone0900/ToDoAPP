@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.example.view.ToDoFormWindow">
+  <grid id="27dc6" binding="panelToDo" layout-manager="GridLayoutManager" row-count="7" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="50" left="0" bottom="50" right="50"/>
+    <constraints>
+      <xy x="14" y="7" width="544" height="469"/>
+    </constraints>
+    <properties>
+      <background color="-2696736"/>
+      <foreground color="-1544"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="bc38b" class="javax.swing.JTextArea" binding="descrizioneArea">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="34"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Segoe UI" size="12" style="0"/>
+        </properties>
+      </component>
+      <component id="2a21" class="javax.swing.JTextField" binding="urlField" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Segoe UI" size="12" style="0"/>
+        </properties>
+      </component>
+      <component id="14fa1" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe UI" size="16" style="0"/>
+          <text value="Titolo:"/>
+        </properties>
+      </component>
+      <component id="3a624" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe UI" size="16" style="0"/>
+          <text value="Data scadenza:"/>
+        </properties>
+      </component>
+      <component id="dc61a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe UI" size="16" style="0"/>
+          <text value="URL:"/>
+        </properties>
+      </component>
+      <component id="9f100" class="javax.swing.JButton" binding="salvaButton">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="100" height="40"/>
+            <preferred-size width="100" height="40"/>
+            <maximum-size width="100" height="40"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Segoe UI" size="16" style="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Salva"/>
+        </properties>
+      </component>
+      <component id="21506" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="5" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="82" height="34"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Segoe UI" size="16" style="0"/>
+          <text value="Descrizione:"/>
+        </properties>
+      </component>
+      <component id="c84d7" class="javax.swing.JTextField" binding="titoloField">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Segoe UI" size="12"/>
+        </properties>
+      </component>
+      <component id="9d1dd" class="javax.swing.JFormattedTextField" binding="scadenzaField">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Segoe UI" size="12" style="0"/>
+        </properties>
+      </component>
+      <component id="58250" class="javax.swing.JTextField" binding="immaginePathField">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Segoe UI" size="12" style="0"/>
+        </properties>
+      </component>
+      <component id="f2871" class="javax.swing.JButton" binding="sfogliaButton">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe UI" size="16" style="0"/>
+          <text value="Inserisci la foto"/>
+        </properties>
+      </component>
+      <component id="43ccd" class="javax.swing.JTextField" binding="coloreField">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Segoe UI" size="12" style="0"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="ce36c" class="javax.swing.JButton" binding="coloreButton">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe UI" size="16" style="0"/>
+          <text value="Inserisci colore sfondo"/>
+        </properties>
+      </component>
+      <component id="a1cfe" class="javax.swing.JButton" binding="annullaButton">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="100" height="40"/>
+            <preferred-size width="100" height="40"/>
+            <maximum-size width="100" height="40"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Segoe UI" size="16" style="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Annulla"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
